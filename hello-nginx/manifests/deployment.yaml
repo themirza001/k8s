@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-html
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-html
+  template:
+    metadata:
+      labels:
+        app: nginx-html
+    spec:
+      containers:
+      - name: nginx-html
+        image: mirzaatif/simple-html-nginx
+        ports:
+        - containerPort: 80
