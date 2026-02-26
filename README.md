@@ -12,7 +12,7 @@ Welcome to my personal collection of end-to-end Kubernetes projects. Each folder
 │   ├── manifests/
 │   └── README.md
 ├── <another-project>/
-│   └── ...
+│   └── .....
 └── README.md  # (this file)
 ```
 
